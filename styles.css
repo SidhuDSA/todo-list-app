@@ -1,0 +1,41 @@
+*{
+    background-color: rgb(245, 242, 242);
+    margin: 5px auto;
+    padding:5px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 600px;
+   
+}
+body{
+    background-color: pink;
+    
+}
+
+h2{
+    text-align: center;
+}
+.input-field{
+    display: flex;
+    
+}
+input{
+    margin-right: 0;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+.input-btn{
+    margin-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+.input-btn:hover{
+    background-color: rgb(245, 242, 242);
+    color:black;
+}
+.list-added{
+    list-style-type: none;
+}
